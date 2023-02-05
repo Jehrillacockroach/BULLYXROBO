@@ -23,10 +23,10 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import FallenRobot.modules.sql.chatbot_sql as sql
-from FallenRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
-from FallenRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
-from FallenRobot.modules.log_channel import gloggable
+import BullyRobot.modules.sql.chatbot_sql as sql
+from BullyRobot import BOT_ID, BOT_NAME, BOT_USERNAME, dispatcher
+from BullyRobot.modules.helper_funcs.chat_status import user_admin, user_admin_no_reply
+from BullyRobot.modules.log_channel import gloggable
 
 
 @run_async
