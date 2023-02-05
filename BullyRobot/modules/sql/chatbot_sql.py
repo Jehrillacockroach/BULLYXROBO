@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String
 
-from FallenRobot.modules.sql import BASE, SESSION
+from BullyRobot.modules.sql import BASE, SESSION
 
 
 class FallenChats(BASE):
