@@ -1,4 +1,5 @@
 import os
+import message
 import asyncio
 import requests
 import aiohttp
@@ -15,7 +16,7 @@ def time_to_seconds(time):
 
 
 @pbot.on_message(filters.command(["song", "music"]))
-def song(client, message):
+def song(client: pbot, message: Message):
 
     message.delete()
     user_id = message.from_user.id
