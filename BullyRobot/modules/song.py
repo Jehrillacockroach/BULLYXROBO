@@ -1,5 +1,4 @@
 import os
-import messages
 import asyncio
 import requests
 import aiohttp
